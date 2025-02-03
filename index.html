@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timer</title>
+    <title>Countdown Timer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <h1 id="display">COUNTDOWN TIMER</h1>
+        <form action="#">
+             <input type="number" id="hour" placeholder="HOUR"> 
+             <input type="number" id="minutes" placeholder="MINUTES"> 
+             <input type="number" id="seconds" placeholder="SECONDS">  
+        </form>
+        <div class="btn">
+            <button id="start" onclick="startTimer()">START</button>
+            <button id="reset" onclick="resetTimer()">RESET</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

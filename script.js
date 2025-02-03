@@ -1,0 +1,6 @@
+let hour = document.getElementById('hour')
+let minute = document.getElementById('minute')
+let second = document.getElementById('seconds')
+let start = document.getElementById('start')
+let reset = document.getElementById('reset')
+let display = document.getElementById('display')
